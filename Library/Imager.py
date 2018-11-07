@@ -9,11 +9,6 @@ import scipy.sparse.linalg
 from sys import version_info
 if(version_info >= (3,0)):
     from importlib import reload as reload
-    
-
-import normas
-reload(normas)
-from normas import *
 
 import FarFieldSignal
 reload(FarFieldSignal)
@@ -27,9 +22,9 @@ import operations
 reload(operations)
 from operations import *
 
-import OMP
-reload(OMP)
-from OMP import *
+import omp
+reload(omp)
+from omp import *
 
 import convex
 reload(convex)
