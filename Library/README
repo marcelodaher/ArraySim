@@ -1,0 +1,3 @@
+Module files are stored here
+Class files - FarFieldSignal, GridArray, Imager, SignalEstimator
+Function files - operations, OMP, convex, linear_arrays_tools
